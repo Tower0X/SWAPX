@@ -19,7 +19,7 @@ const Nav = () =>{
         <div className="LoGoContainer">
             <a href="/">
                 <i className="fa-brands fa-joomla fa-flip-both"></i>
-                <h3>BINANCEX</h3>
+                <h3>SWAPX</h3>
             </a>
         </div>
         <div className="NavRightCon">

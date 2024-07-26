@@ -37,7 +37,7 @@ function Home() {
     <AAlert/>
     <div className="homeMain">
         <div className="leftHome">
-            <h1>Buy, trade, and hold 350+ cryptocurrencies on BinaceX</h1>
+            <h1>Swap, Pay, and Transfert funds on SWAPX</h1>
             <button onClick={()=>Navi("/account/register")}><i className="fa-solid fa-user"></i><span>Sign up with Email or Phone</span></button>
             <div className="orBlock">
                 <span className="A1"></span>
@@ -55,19 +55,19 @@ function Home() {
      </div>
         <div className="cards">
             <div className="box">
-                <h3>$38 billion</h3>
-                <p>24h trading volume on Binancex exchange</p>
+                <h3>25+ Payements</h3>
+                <p>24h/7 trafert Funds on SwapX </p>
             </div>
             <div className="box">
-                <h3>350+ </h3>
-                <p>Cryptocurrencies listed</p>
+                <h3>50+ </h3>
+                <p>Cryptocurrencies accept</p>
             </div>
             <div className="box">
-                <h3>120 million</h3>
+                <h3>5+ millions</h3>
                 <p>Registered users</p>
             </div>
             <div className="box">
-                <h3> &lt;0.10%</h3>
+                <h3> &lt;0.5%</h3>
                 <p>Lowest transaction fees</p>
             </div>
         </div>
@@ -80,8 +80,8 @@ function Home() {
 
     </div>
     <div className="Title">
-            <h1>Build your crypto Portfolio</h1>
-            <h5>start your first trade with these easy steps</h5>
+            <h1>Your Next Game with SwapX  </h1>
+            <h5>start your first Transfert with these easy steps</h5>
     </div>
     <div className="portfolioAds">
         <div className="left">
@@ -89,21 +89,21 @@ function Home() {
                 <div class="box">
                     <img src={identify}></img>
                     <div>
-                        <h2>Verify your identity</h2>
+                        <h2>Create your account</h2>
                         <p>Complete the identity verification process to secure your account and transactions.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src={wallet}></img>
                     <div>
-                        <h2>Fund your account</h2>
-                        <p>Add funds to your crypto account to start trading crypto. You can add funds with a variety of payment methods.</p>
+                        <h2>Transfert Funds</h2>
+                        <p>Transfert funds to any account. You can Transfert funds with a variety of payment methods.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src={bitcointrade}></img>
                     <div>
-                        <h2>Start trading</h2>
+                        <h2>Start Swapping</h2>
                         <p>You're good to go! Buy/sell crypto, set up recurring buys for your investments, and discover what Binance has to offer.</p>
                     </div>
                 </div>
@@ -116,16 +116,13 @@ function Home() {
     </div>
     <div className="earnAds">
         <div>
-            <h1>Earn daily rewards on your idle tokens</h1>
-            <h4>Simple & Secure. Search popular coins and start earning.</h4>
+            <h1>Our crypto Payement accept</h1>
+            <h4>Simple & Secure. Search popular coins and start Swapping.</h4>
         </div>
         <div className="boxContainer">
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    1.03%-115.38%
+                    USDT
                 </p>
                 <div>
                     <img src={USDT}>
@@ -138,10 +135,7 @@ function Home() {
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    0.55%-93.43%
+                    BTC
                 </p>
                 <div>
                     <img src={btc}>
@@ -154,11 +148,8 @@ function Home() {
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    1.12%-105.24%
-                </p>
+                    BNB
+                </p>            
                 <div>
                     <img src={bnb}>
                     </img>
@@ -170,26 +161,20 @@ function Home() {
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    1.35%-116.23%
+                    FUSD
                 </p>
                 <div>
                     <img src={busd}>
                     </img>
                     <span>
-                        BUSD
+                        FUSD
                     </span>
                 </div>
                 <a className="popUp" href="/defi">Learn More</a>
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">  
-                    0.84%-102.49%
+                    ETH
                 </p>
                 <div>
                     <img src={eth}>
@@ -202,27 +187,21 @@ function Home() {
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    0.92%-85.34%
-                </p>
+                    USDC
+                </p>           
                 <div>
                     <img src={pot}>
                     </img>
                     <span>
-                        DOT
+                        USDC
                     </span>
                 </div>
                 <a className="popUp" href="/defi">Learn More</a>
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    12.23%-90.38%
-                </p>
+                    ADA
+                </p>               
                 <div>
                     <img src={ada}>
                     </img>
@@ -234,11 +213,8 @@ function Home() {
             </div>
             <div className="box">
                 <p>
-                    APR
-                </p>
-                <p id="apr">
-                    10.03%-85.38%
-                </p>
+                    Shiba
+                </p>             
                 <div>
                     <img src={shiba}>
                     </img>
@@ -250,11 +226,11 @@ function Home() {
             </div>
 
         </div>
-        <button onClick={()=> Navi("/account")} className="Button">Start earn</button>
+        <button onClick={()=> Navi("/account")} className="Button">Start Swapping</button>
 
     </div>
     <div className="Explore">
-        <h1>Explore endless possibilities with BinanceX</h1>
+        <h1>Explore endless possibilities with SwapX</h1>
         <div className="boxContainer">
             <div className="box">
                 <img src={smart}></img>
